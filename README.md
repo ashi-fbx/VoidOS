@@ -2,35 +2,35 @@
 
 **The Ultimate Cinematic Terminal Lock-Screen**
 
-VOID-OS یک تجربه ترمینالی سینمایی و روانی است که بین یک ابزار امنیتی و یک نمایش نمایشی مرز را از بین می‌برد.
+VOID-OS is a cinematic and psychological terminal experience that blurs the line between a security tool and a theatrical performance.
 
-این پروژه برای نتورکرها، افراد کنجکاو و کسانی ساخته شده که دوست دارند با ترمینال بازی‌های ذهنی انجام دهند.
+This project is built for network engineers, curious minds, and those who enjoy playing mind games through the terminal.
 
 ---
 
-## ⚠️ هشدار مهم
+## ⚠️ Important Warning
 
-VOID-OS **فقط یک ابزار شوخی (Prank Tool)** است.
+VOID-OS is **strictly a prank tool**.
 
-هیچ داده‌ای از سیستم شما را حذف نمی‌کند و تنها در صورت فعال شدن سناریو نهایی، **کدهای خودش** را پاک می‌کند.
-با این حال، به‌گونه‌ای طراحی شده که استرس و فشار روانی بالایی ایجاد کند.
+It does NOT delete any of your system data and only removes **its own code** if the final scenario is triggered.
+However, it is intentionally designed to create high levels of stress and psychological pressure.
 
-مسئولانه استفاده کنید.
+Use responsibly.
 
 ---
 
 ## 🧠 The Cynic AI
 
-The Cynic یک هوش مصنوعی ASCII است که تمام ورودی‌های شما را زیر نظر دارد و عمداً تلاش می‌کند شما را شکست دهد.
+The Cynic is an ASCII-based artificial intelligence that monitors all of your inputs and deliberately tries to make you fail.
 
-رفتار سیستم با توجه به میزان اشتباهات شما تغییر می‌کند:
+System behavior changes based on how many mistakes you make:
 
-| Level     | Behavior                                       |
-| --------- | ---------------------------------------------- |
-| I – III   | تمسخر، کنایه و لرزش خفیف متن                   |
-| IV – VIII | لرزش شدید ترمینال، خروجی خراب و گلیچ           |
-| IX – XI   | هدف‌گیری پوشه‌های حساس (ssh، crypto، projects) |
-| XII       | فعال شدن پروتکل Scorched Earth                 |
+| Level     | Behavior                                           |
+| --------- | -------------------------------------------------- |
+| I – III   | Mockery, sarcasm, and mild text shaking            |
+| IV – VIII | Heavy terminal shaking, corrupted output, glitches |
+| IX – XI   | Targets sensitive directories (ssh, crypto, projects) |
+| XII       | Scorched Earth Protocol activation                 |
 
 ---
 
@@ -38,27 +38,27 @@ The Cynic یک هوش مصنوعی ASCII است که تمام ورودی‌ها�
 
 ### 🧩 Handshake Protocol
 
-برای باز کردن سیستم باید **TCP Three-Way Handshake** را به‌صورت دستی کامل کنید.
+To unlock the system, you must manually complete a **TCP Three-Way Handshake**.
 
-این بخش یک معمای منطقی است و نیاز به درک صحیح ترتیب پیام‌ها و افزایش Sequence Number دارد.
+This section is a logic puzzle and requires a correct understanding of message order and sequence number incrementation.
 
-مراحل:
+Steps:
 
-* **SYN** – درخواست اتصال
-* **SYN-ACK** – پاسخ سرور (تله The Cynic)
-* **ACK** – نهایی‌سازی اتصال
+* **SYN** – Connection request
+* **SYN-ACK** – Server response (The Cynic’s trap)
+* **ACK** – Connection finalization
 
 ---
 
 ### 🌪️ Simulated Liquidation
 
-در صورت ثبت ۱۲ خطا، سناریوی نهایی اجرا می‌شود:
+After 12 registered errors, the final scenario is executed:
 
-* شبیه‌سازی حذف فایل‌های حساس
-* پاک شدن خود برنامه از سیستم
-* غیرفعال شدن کلیدهای کنترلی مثل Ctrl+C
+* Simulation of sensitive file deletion
+* Self-destruction of the program
+* Disabling control keys such as Ctrl+C
 
-در این مرحله فقط تماشاگر هستید.
+At this stage, you are only an observer.
 
 ---
 
@@ -66,8 +66,8 @@ The Cynic یک هوش مصنوعی ASCII است که تمام ورودی‌ها�
 
 ### Prerequisites
 
-* Python 3.10 یا بالاتر
-* ترمینال با پشتیبانی از ANSI Color (Windows Terminal، iTerm2 و ...)
+* Python 3.10 or higher
+* A terminal with ANSI color support (Windows Terminal, iTerm2, etc.)
 
 ### Installation
 
@@ -87,7 +87,7 @@ python main.py --stealth
 
 ## 🎨 Preview
 
-(Preview به‌صورت تصویری در آینده اضافه می‌شود)
+(Visual preview will be added in the future)
 
 ---
 
@@ -95,7 +95,7 @@ python main.py --stealth
 
 Developed & Maintained by **ashi-fbx**
 
-ساخته شده برای عاشقان آشوب و ترمینال.
+Built for lovers of chaos and the terminal.
 
-GitHub:
-[https://github.com/ashi-fbx](https://github.com/ashi-fbx)
+GitHub:  
+https://github.com/ashi-fbx
