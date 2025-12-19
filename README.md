@@ -80,7 +80,7 @@ No external libraries required
 ### Usage
 
 ```bash
-python main.py --stealth
+python VoidOS.py --stealth
 ```
 
 ---
@@ -93,7 +93,7 @@ python main.py --stealth
 
 ## 🛠️ The Architect
 
-Developed & Maintained by **ashi-fbx**
+Developed & Maintained by **ashi**
 
 Built for lovers of chaos and the terminal.
 
