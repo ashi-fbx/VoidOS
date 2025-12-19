@@ -67,7 +67,7 @@ class VoidOS:
         self.main_frame.place(relx=0, rely=0, relwidth=1, relheight=1)
 
         # Title
-        tk.Label(self.main_frame, text="VOID-OS // KERNEL v12.5", font=("Courier New", 36, "bold"), 
+        tk.Label(self.main_frame, text="VOID-OS // KERNEL v1.1", font=("Courier New", 36, "bold"), 
                  fg="#ff0000", bg="#020202").pack(pady=(80, 0))
         
         # Panels
@@ -387,4 +387,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.focus_force()
     app = VoidOS(root)
+
     root.mainloop()
