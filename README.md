@@ -74,7 +74,7 @@ At this stage, you are only an observer.
 ```bash
 git clone https://github.com/ashi-fbx/VoidOS.git
 cd VoidOS
-pip install -r requirements.txt
+No external libraries required
 ```
 
 ### Usage
