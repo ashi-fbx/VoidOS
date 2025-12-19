@@ -1,82 +1,117 @@
-💀 VoidOS: The Nuclear Lock-Screen Prank
+<div align="center">
 
-"In the void, no one hears your handshake fail."
+🌌 VOID-OS 🌌
 
-VoidOS is a high-fidelity, cinematic terminal lock screen designed for network engineers, sysadmins, and security enthusiasts. It’s not just a screen locker; it’s a psychological thriller delivered via a CLI.
+The Ultimate Cinematic Terminal Lock-Screen
 
-The system presents a "locked" state that demands a successful TCP 3-Way Handshake logic sequence to exit. Failure leads to escalation, insults from a reactive AI, and ultimately, a simulated (yet terrifying) system liquidation sequence.
+VoidOS is a psychological terminal experience that blurs the line between a security tool and a theatrical performance.
 
-🛠 Technical Architecture
+Designed for network engineers, pranksters, and those who dare to enter the void.
 
-VoidOS is built as a state-driven terminal application. It utilizes ANSI escape sequences for high-performance rendering without heavy dependencies.
+Explore Features • Technical Specs • Deployment
 
-1. The 'Cynic' AI State Machine
+</div>
 
-The Cynic is a reactive ASCII entity that tracks user failures. It operates on a linear entropy scale:
+⚠️ CRITICAL WARNING
 
-0-3 Failures: "Passive Aggressive" - Snarky comments, static ASCII.
+[!CAUTION]
+VOID-OS IS A PRANK TOOL. It features high-fidelity simulations of system-level data destruction. While it does not delete actual user data (only its own source code), it is designed to induce high stress. Use it responsibly.
 
-4-8 Failures: "Aggravated" - Increased screen jitter, corrupted text streams.
+🧠 THE CYNIC AI
 
-9-11 Failures: "Hostile" - The AI starts "scanning" local paths (Steam, Crypto Wallets, Project folders) and listing them on-screen.
+Meet your new judge. The Cynic is a reactive ASCII consciousness that monitors your every keystroke. It doesn't want you to succeed.
 
-12 Failures: Nuclear Protocol initiated.
+Level
 
-2. The TCP Handshake Puzzle
+State
 
-To "unlock" the system, the user must provide the correct sequence of packets. The logic requires:
+System Behavior
 
-SYN: Initializing the request.
+I - III
 
-SYN-ACK: Acknowledging the server response (provided by VoidOS).
+😒 Mocking
 
-ACK: Finalizing the connection.
-Mathematical constraints: Sequence numbers must be manually incremented ($Seq + 1$) during the simulated exchange to pass validation.
+Sarcastic comments and slight text flickering.
 
-3. System Liquidation Simulation
+IV - VIII
 
-Upon the 12th failure, the application executes a "Scorched Earth" routine:
+😡 Aggravated
 
-Visuals: Real-time logging of file deletion (simulated via stdout).
+Terminal jitter, corrupted stdout streams, and glitches.
 
-The Nuclear Option: The application utilizes self-deletion logic (e.g., os.Remove(os.Args[0]) in Go or os.remove(__file__) in Python) to erase its own existence, leaving the victim with a blank terminal.
+IX - XI
 
-🚀 Installation & Usage
+☣️ Hostile
+
+"Targeting" sensitive directories (.ssh, crypto, projects).
+
+XII
+
+☢️ NUCLEAR
+
+Protocol 'Scorched Earth' initiated.
+
+⚙️ CORE MECHANICS
+
+🧩 The Handshake Protocol
+
+To unlock the system, you must manually complete a TCP 3-Way Handshake. This isn't just typing; it's a logic puzzle involving sequence increments ($Seq + 1$).
+
+SYN: Connection request initiated.
+
+SYN-ACK: Server synchronization (The Cynic's trap).
+
+ACK: Finalizing the handshake.
+
+🌪️ Simulated Liquidation
+
+Once the 12th failure is registered, the "Scorched Earth" routine begins:
+
+Visual Wipe: High-speed logs showing the "deletion" of your most sensitive files.
+
+Self-Erasure: The program utilizes self-deletion logic to remove its own traces.
+
+Input Hijack: Standard interrupts (Ctrl+C) are disabled. You are a spectator to the void.
+
+🚀 QUICK START
 
 Prerequisites
 
-A terminal with ANSI Color support (xterm-256color recommended).
+Python 3.10+
 
-System-level permissions to read directory structures (for the "threat" scanning feature).
+A modern terminal with ANSI Color Support (Windows Terminal, iTerm2, etc.)
 
-Quick Start
+Installation
 
 # Clone the repository
-git clone [https://github.com/username/VoidOS.git](https://github.com/username/VoidOS.git)
+git clone [https://github.com/ashi-fbx/VoidOS.git](https://github.com/ashi-fbx/VoidOS.git)
 
 # Enter the directory
 cd VoidOS
 
-# Run the kernel (Assuming Python implementation)
-python3 void_os.py --stealth-mode
+# Install required modules
+pip install -r requirements.txt
 
 
-🕹 Key Features
+Usage
 
-Dynamic Directory Targeting: Uses a weighted list of "High-Value" directory names (e.g., .ssh, Desktop, Documents/Work) to create personalized fear.
+python main.py --stealth
 
-High-Fidelity Terminal UI: Custom-built progress bars, matrix-style data streams, and kernel-level diagnostic logs.
 
-Self-Destruct Sequence: A unique feature where the software "commits suicide" to prevent forensic analysis (and for the ultimate theatrical prank).
+🎨 PREVIEW
 
-Zero-Escape Logic: Overrides common interrupts (SIGINT/Ctrl+C) to keep the victim trapped in the experience.
+<div align="center">
+<img src="https://www.google.com/search?q=https://via.placeholder.com/800x400%3Ftext%3DVOID-OS%2BTERMINAL%2BINTERFACE" alt="VoidOS Preview" width="100%">
+</div>
 
-⚖️ Legal & Ethical Disclaimer
+🛠️ THE ARCHITECT
 
-VOID-OS IS A PRANK TOOL. It does not actually delete user data (except for its own source code/executable during the self-destruct phase). The author is not responsible for any heart attacks, broken keyboards, or damaged friendships resulting from the use of this software. Use it responsibly on your peers, and never in a production environment where it could cause actual system downtime.
+This project is maintained and developed by ashi-fbx.
 
-🤝 Contributing
+Built for the chaos-lovers and terminal enthusiasts.
 
-If you want to add more insults to The Cynic or more complex network puzzles, feel free to open a Pull Request.
+<div align="center">
 
-Maintained by the VoidOS Collective.
+Follow ashi-fbx on GitHub
+
+</div>
