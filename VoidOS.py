@@ -1,13 +1,6 @@
 import tkinter as tk
 import shutil, platform, random, math, os, string, sys, time
 
-# ══════════════════════════════════════════════════════════════════════
-#  VOID-OS // KERNEL v2.0  ─  THE CYNIC PROTOCOL
-#  ⚠ پرنک صرف — هیچ فایلی از سیستم شما حذف نمی‌شود.
-#  ⚠ Prank only — Nothing is deleted from your system.
-# ══════════════════════════════════════════════════════════════════════
-
-# ── چهار مرحله احراز هویت ──────────────────────────────────────────
 STAGES = [
     {
         "display": "STAGE 01 / 04",
