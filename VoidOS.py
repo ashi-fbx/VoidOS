@@ -1,6 +1,6 @@
 import tkinter as tk
 import shutil, platform, random, math, os, string, sys, time
-
+# START
 STAGES = [
     {
         "display": "STAGE 01 / 04",
